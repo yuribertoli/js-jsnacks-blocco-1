@@ -1,14 +1,14 @@
-let domanda;
 let somma = 0;
+let numeroScelto = 18;
 
-for (let i=0; i<10; i++) {
+for (let i=1; i<=numeroScelto; i++) {
 
-    domanda = parseInt(prompt("Inserisci un numero"));
-    console.log("il numero è: " + domanda);
-
-    somma = parseInt(domanda) + somma;
-
+    somma = somma + i;
+    
 }
 
-console.log("La somma è " + somma);
+alert(`La somma dei primi ${numeroScelto} numeri è ${somma}`);
 
+let media = somma / numeroScelto;
+
+alert(`La media dei primi ${numeroScelto} numeri è ${media}`);

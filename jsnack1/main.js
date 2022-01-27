@@ -10,5 +10,5 @@ for (let i=0; i<10; i++) {
 
 }
 
-console.log("La somma è " + somma);
+alert("La somma è " + somma);
 
